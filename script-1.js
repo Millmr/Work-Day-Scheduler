@@ -81,6 +81,7 @@ function rowColors() {
     }
 }
 
+//Make an onload function to keep anything saved when the page is refreshed.
 window.onload = function(){
     rowColors();
     nine();
@@ -94,6 +95,7 @@ window.onload = function(){
     five();
 }
 
+//Create functions that will store any input to the local storage and save it. 
 function nine() {
     var input = document.querySelector("#com9am");
     var output = document.querySelector("#com9am");
