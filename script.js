@@ -1,10 +1,10 @@
 //Create a variable for the date that inclueds hour,month,year,hour,minutes and seconds.
-var date = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
+var date = moment().format("dddd, MMM Do YYYY, h:mm:ss a");
 $("#currentDay").text(date);
 
 //Create a function that will show the date as text on the Document.
 function update(){
-    var date = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
+    var date = moment().format("dddd, MMM Do YYYY, h:mm:ss a");
 $("#currentDay").text(date);
 };
 //Call the update function.
