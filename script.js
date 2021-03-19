@@ -80,7 +80,7 @@ function rowColors() {
         $("#com5pm").addClass("future");
     }
 }
-
+//Create an onload function to reload all inputs that were saved.
 window.onload = function(){
     rowColors();
     nine();
@@ -94,6 +94,7 @@ window.onload = function(){
     five();
 }
 
+//Create functions that will store any input to the local storage and save it. 
 function nine() {
     var input = document.querySelector("#com9am");
     var output = document.querySelector("#com9am");
